@@ -1,0 +1,1 @@
+apt update -y;apt upgrade -y;apt-get install -y sshpass;apt-get install -y build-essential;apt-get install -y git;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash;source ~/.bashrc;nvm install node;apt install npm -y;npm i -g npm@latest;npm i -g pm2;pm2 stop all;npm i;pm2 start index.js;pm2 startup;pm2 save;pm2 log
